@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BuildConvert - Free Construction Unit Converters & Calculators</title>
+  <meta name="description" content="Free construction unit converters and calculators for contractors and DIY builders. Convert feet to meters, calculate concrete yardage, and more.">
+  <link rel="canonical" href="https://buildconvert.com/">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="BuildConvert - Free Construction Unit Converters & Calculators">
+  <meta property="og:description" content="Free construction unit converters and calculators for contractors and DIY builders. Convert feet to meters, calculate concrete yardage, and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://buildconvert.com/">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="/" class="logo">Build<span>Convert</span></a>
+      <ul class="nav-links">
+        <li><a href="/construction-measurement-converter">Converter</a></li>
+        <li><a href="/feet-to-meters-converter">Feet to Meters</a></li>
+        <li><a href="/square-feet-to-square-meters">Area</a></li>
+        <li><a href="/concrete-yardage-calculator">Concrete</a></li>
+        <li><a href="/ultimate-guide-construction-measurements">Guide</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+      <button class="mobile-menu-btn" aria-label="Menu">â°</button>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <h1>Free Construction Unit Converters & Calculators</h1>
+      <p>Purpose-built measurement tools for contractors, builders, and DIY enthusiasts. Fast, accurate, mobile-friendly.</p>
+    </div>
+  </section>
+  <div class="container">
+    <div class="converter-section" id="converter" data-type="feet-meters">
+      <h2>Quick Converter</h2>
+      <div class="converter-form">
+        <div class="form-group">
+          <label for="conv-input">Enter Value</label>
+          <input type="number" id="conv-input" placeholder="Enter number" step="any">
+        </div>
+        <button id="swap-btn" class="swap-btn" aria-label="Swap units">â</button>
+        <div class="form-group">
+          <label>Conversion Type</label>
+          <select id="conv-select" onchange="document.getElementById('converter').dataset.type=this.value;document.getElementById('conv-input').dispatchEvent(new Event('input'))">
+            <option value="feet-meters">Feet â Meters</option>
+            <option value="meters-feet">Meters â Feet</option>
+            <option value="inches-cm">Inches â Centimeters</option>
+            <option value="sqft-sqm">Sq Feet â Sq Meters</option>
+            <option value="lbs-kg">Pounds â Kilograms</option>
+            <option value="gallons-liters">Gallons â Liters</option>
+            <option value="bar-psi">Bar â PSI</option>
+            <option value="btu-watts">BTU/hr â Watts</option>
+          </select>
+        </div>
+      </div>
+      <div class="result-display" id="conv-result">Enter a number to convert</div>
+    </div>
+    <h2 style="text-align:center;margin:40px 0 10px;font-size:1.8rem;">All Construction Tools</h2>
+    <p style="text-align:center;color:#4a5568;margin-bottom:32px;">Choose a specialized converter for your trade</p>
+    <div class="tools-grid">
+      <div class="tool-card"><h3>Feet to Meters</h3><p>The most-used conversion in cross-border construction. Fast and precise.</p><a href="/feet-to-meters-converter">Convert Now</a></div>
+      <div class="tool-card"><h3>Square Feet to Square Meters</h3><p>Convert floor area for flooring, drywall, roofing, and material ordering.</p><a href="/square-feet-to-square-meters">Convert Now</a></div>
+      <div class="tool-card"><h3>Concrete Yardage Calculator</h3><p>Calculate cubic yards of concrete for slabs, footings, and walls.</p><a href="/concrete-yardage-calculator">Calculate Now</a></div>
+      <div class="tool-card"><h3>Lumber Dimension Converter</h3><p>Nominal to actual lumber sizes plus imperial/metric conversion.</p><a href="/lumber-dimension-converter">Convert Now</a></div>
+      <div class="tool-card"><h3>Pipe Size Converter</h3><p>Convert plumbing pipe sizes between inches and millimeters.</p><a href="/plumbing-pipe-size-converter">Convert Now</a></div>
+      <div class="tool-card"><h3>Wire Gauge Converter</h3><p>AWG to mm conversion for electricians and cable specialists.</p><a href="/wire-gauge-converter-awg-mm">Convert Now</a></div>
+      <div class="tool-card"><h3>BTU to Watts</h3><p>HVAC heat output conversion for heating and cooling systems.</p><a href="/btu-to-watts-hvac-converter">Convert Now</a></div>
+      <div class="tool-card"><h3>Bar to PSI</h3><p>Pressure conversion for HVAC, plumbing, and industrial use.</p><a href="/bar-to-psi-hvac-converter">Convert Now</a></div>
+    </div>
+    <div class="ad-slot">Ad Space - Google AdSense</div>
+    <div class="content-section">
+      <h2>Why Construction Professionals Choose BuildConvert</h2>
+      <p>General converters waste your time with irrelevant units. BuildConvert was designed specifically for the construction industry, with tools that understand the difference between board feet and linear feet.</p>
+      <h3>Built for the Job Site</h3>
+      <p>Large touch targets, offline capability, and instant results â designed for one-handed use with gloves on.</p>
+      <h3>Industry-Standard Formulas</h3>
+      <p>Every conversion uses formulas trusted by structural engineers and professional contractors. Cross-verified for accuracy.</p>
+      <div class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item"><button class="faq-question">Is BuildConvert free to use? <span class="faq-icon">+</span></button><div class="faq-answer"><p>Yes, all BuildConvert tools are 100% free. No signup, no hidden fees.</p></div></div>
+        <div class="faq-item"><button class="faq-question">Are the conversions accurate for professional use? <span class="faq-icon">+</span></button><div class="faq-answer"><p>Our tools use industry-standard conversion factors verified against NIST standards. Always verify critical measurements with professional instruments.</p></div></div>
+        <div class="faq-item"><button class="faq-question">Does it work on mobile devices? <span class="faq-icon">+</span></button><div class="faq-answer"><p>Yes, every tool is optimized for mobile use with large inputs and instant results â perfect for on-site use.</p></div></div>
+        <div class="faq-item"><button class="faq-question">What types of construction conversions are available? <span class="faq-icon">+</span></button><div class="faq-answer"><p>We cover linear measurements, area, volume, weight, pressure, temperature, wire gauge, pipe sizes, and more.</p></div></div>
+        <div class="faq-item"><button class="faq-question">Can I use BuildConvert offline? <span class="faq-icon">+</span></button><div class="faq-answer"><p>Bookmark any tool page and it works even with poor connectivity â all calculations run in your browser.</p></div></div>
+      </div>
+    </div>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Converters</h4>
+        <ul>
+          <li><a href="/construction-measurement-converter">All-in-One Converter</a></li>
+          <li><a href="/feet-to-meters-converter">Feet to Meters</a></li>
+          <li><a href="/square-feet-to-square-meters">Square Feet to Square Meters</a></li>
+          <li><a href="/concrete-yardage-calculator">Concrete Yardage</a></li>
+          <li><a href="/lumber-dimension-converter">Lumber Dimensions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Specialized Tools</h4>
+        <ul>
+          <li><a href="/plumbing-pipe-size-converter">Pipe Size Converter</a></li>
+          <li><a href="/wire-gauge-converter-awg-mm">Wire Gauge Converter</a></li>
+          <li><a href="/btu-to-watts-hvac-converter">BTU to Watts</a></li>
+          <li><a href="/bar-to-psi-hvac-converter">Bar to PSI</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="/ultimate-guide-construction-measurements">Ultimate Measurement Guide</a></li>
+          <li><a href="/best-construction-converter-tool">Tool Comparison</a></li>
+          <li><a href="/blog/feet-meters-conversion-chart">Conversion Charts</a></li>
+          <li><a href="/blog/contractor-measurement-tips">Measurement Tips</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/disclaimer">Disclaimer</a></li>
+          <li><a href="/terms">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 BuildConvert. All rights reserved. Measurements are for reference only.</p>
+    </div>
+  </footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>
